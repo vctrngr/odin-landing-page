@@ -59,6 +59,7 @@ button{
 .hero img {
     object-fit: cover;
     max-width: 400px;
+    border-radius: 8px;
 }
 
 .hero, .info, .quote, .call{
