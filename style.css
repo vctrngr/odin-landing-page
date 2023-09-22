@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .header{
@@ -80,7 +80,13 @@ button{
 
 .info-img img{
     width: 150px;
+    max-height: 200px;
+    object-fit: cover;
     border-radius: 8px;
+}
+
+.info-img p{
+    width: 150px;
 }
 
 .quote {
@@ -135,4 +141,9 @@ button{
 
 .call-box button{
     border: solid 1px #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
