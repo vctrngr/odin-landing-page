@@ -9,9 +9,9 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 0px 24px;
 }
 
 .hero .subtitle{
@@ -69,6 +69,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
 .info-imgs{
@@ -103,10 +104,35 @@ button{
 .author{
     text-align: right;
     margin-right: 50px;
+    font-weight: bold;
 }
 
 .footer{
     text-align: center;
     font-size: small;
     background-color: #eee;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call-box{
+    background-color: #3882f6;
+    width: 800px;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.call-box-text p{
+    font-weight: 100;
+}
+
+.call-box button{
+    border: solid 1px #e5e7eb;
 }
